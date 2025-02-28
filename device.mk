@@ -906,3 +906,6 @@ include hardware/google/pixel/citadel/citadel.mk
 
 # Pixel Logger
 include hardware/google/pixel/PixelLogger/PixelLogger.mk
+
+# enable AXP.OS vendor
+$(call inherit-product, vendor/axp/config/common.mk)
