@@ -293,7 +293,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # OEM Unlock reporting
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.oem_unlock_supported=1
+    ro.oem_unlock_supported=0
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cne.feature=1 \
@@ -314,7 +314,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.sap_silent_pin=1 \
     persist.vendor.radio.no_wait_for_card=1 \
     persist.vendor.radio.manual_nw_rej_ct=1 \
-    persist.rcs.supported=1 \
+    persist.rcs.supported=0 \
     vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
     ro.hardware.keystore_desede=true \
 
