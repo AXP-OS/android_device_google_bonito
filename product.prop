@@ -14,7 +14,7 @@ debug.sf.hw=1
 debug.gralloc.enable_fb_ubwc=1
 
 # system props for the cne module
-persist.vendor.cne.feature=1
+persist.vendor.cne.feature=0
 
 # system props for the MM modules
 media.stagefright.enable-player=true
@@ -118,3 +118,9 @@ bluetooth.profile.sap.server.enabled?=true
 
 # RIL
 ro.telephony.block_binder_thread_on_incoming_calls=false
+
+ro.oem_unlock_supported=0
+
+sys.oem_unlock_allowed=0
+
+ro.boot.flash.locked=0
