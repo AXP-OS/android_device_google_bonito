@@ -22,7 +22,6 @@ LOCAL_PATH := device/google/bonito
 PRODUCT_PLATFORM := sdm670
 
 # Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 include device/google/bonito/device-audio-mfg.mk
 include device/google/bonito/device.mk
